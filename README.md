@@ -32,6 +32,33 @@ b) test display functions
 c) demonstrate the copy constructor and assignment overload by temporarily
 adding cout echos to these functions (see output)
 
+
+Project 2:
+
+Version 2.0
+Student Class
+Convert existing code into a separately compiled structure with a separate driver.cpp file for running the program. The program executable should be named “course.exe” and a make file should be used to run the program.
+All subsequent classes should be added to this program using separate compilation with a make file.
+Instructor Class
+Data members:
+a. name
+b. department
+Implement:
+1. Constructors/Accessors/Mutators which preserve data abstraction.
+Course Class
+Data members:
+a. name
+b. instructor (Instructor object)
+Implement:
+1. Constructors/Accessors/Mutators which preserve data abstraction.
+* Do not provide direct access to Instructor objects through a Course object. For example, a getInstructor function would return the name of the Instructor rather than the object itself. A setInstructor function would accept a name, create an new Instructor object and assign it to the course.
+Driver Program
+1) Create a student. Add three grades. Output student info to console.
+2) Create a course with a name and instructor. Output course info to console.
+1
+     
+     
+     
 Project 3:
 Student Class
 a. Copy Constructor: b. Assignment Overload:
